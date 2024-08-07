@@ -1,0 +1,25 @@
+{
+  "name": "demo2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "coverage": "nyc npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^5.0.0",
+    "mocha": "^10.7.0",
+    "nyc": "^17.0.0",
+    "sinon": "^18.0.0"
+  },
+  "dependencies": {
+    "@babel/register": "^7.24.6",
+    "axios": "^1.7.3",
+    "chai-as-promised": "^8.0.0"
+  }
+}
